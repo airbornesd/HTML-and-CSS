@@ -5,6 +5,10 @@
   <meta charset="utf-8">
   <title>Sign Up</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -17,45 +21,42 @@
 
   <hr>
 
-  <div class="mysign">
-    <!--
+    <div class="mysign">
+      <!--
     <img src="pexels-aleksandar-pasaric-1694000.jpg" alt="galaxy.img">
 -->
-    <form class="" action="index.html" method="post">
+      <form class="" action="index.html" method="post">
 
-      <label for="email">Username: </label>
-      <input type="email" placeholder="Enter Email" value="">
+        <div class="login-details"><label for="email">Username: </label></div>
+        <div class="fill-in-details"><input type="email" placeholder="Enter Email" value=""></div>
 
-      <br>
+        <br>
 
-      <label for="password">Password: </label>
-      <input type="password" placeholder="Enter Password" value="">
+        <div class="login-details"><label for="password">Password: </label></div>
+        <div class="fill-in-details"><input type="password" placeholder="Enter Password" value=""></div>
 
-      <br>
+        <br>
 
-      <label for="repassword">Re-Enter Password: </label>
-      <input type="password" placeholder="Re-Enter Password" value="">
+        <div class="login-details"><label for="repassword">Re-Enter Password: </label></div>
+        <div class="fill-in-details"><input type="password" placeholder="Re-Enter Password" value=""></div>
 
-      <br>
+        <br>
 
-      <label>
-        Remember Me: <input type="checkbox" name="" value="">
-      </label>
+        <div class="login-details"><label>Remember Me: <input type="checkbox" name="" value=""></label></div>
 
-      <p>By creating an account you agree with <a href="https://htmlcodeeditor.com/privacy/">Terms & Condtions</a> of your community.</p>
+        <br>
+        <br>
 
-      <button type="button" name="cancelbtn">Cancel</button>
-      <button type="button" name="signupbtn">Sign Up</button>
+      </form>
 
-    </form>
+    </div>
 
-    <hr>
+  <hr>
 
+  <p>By creating an account you agree with <a href="https://htmlcodeeditor.com/privacy/">Terms & Condtions</a> of your community.</p>
 
-
-
-  </div>
-
+  <div id="button"><button id="button-cancel" type="button">Canel</button>
+  <button id="button-sign-up"type="button">Sign Up</button></div>
 
 </body>
 
