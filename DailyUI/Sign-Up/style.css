@@ -1,4 +1,52 @@
+body {
+  background-color: #f4f4f2;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  font-size: 1.5em;
+  font-family: 'Press Start 2P', cursive;
+}
+
+p{
+  text-align: center;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
 hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+  background-color: #495464;
+}
+
+.mysign {
+  background-color: #FFFFFF;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lexend Zetta', sans-serif;
+
+}
+
+.login-details {
+  text-align: right;
+  font-size: 15px;
+  float: left;
+  padding: 8px 12px 8px 8px;
+  clear: right;
+}
+
+.fill-in-details {
+  position: relative;
+  top: 7.5px;
+}
+
+#button{
+  text-align: center;
 }
